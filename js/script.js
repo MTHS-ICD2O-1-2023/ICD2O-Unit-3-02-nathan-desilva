@@ -18,5 +18,5 @@ function myButtonClicked() {
   const volume = (length * width * height) / 3
 
   // output
-  document.getElementById('volume').innerHTML = 'The Volume is: ' + volume + ' mm³'
+  document.getElementById('volume').innerHTML = 'The Volume is: ' + volume.toFixed(2) + ' mm³'
 }
